@@ -91,7 +91,7 @@ kubectl get svc net-app-nodeport -o wide
 
 Пример:
 ```bash
-curl -s http://<NODE_IP>:<NODEPORT> | head
+curl -s http://192.168.245.132:30081 | head
 ```
 
 Скриншот результата (curl/браузер):
